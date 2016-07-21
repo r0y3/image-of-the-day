@@ -59,8 +59,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'iotd',
-        'USER': 'iotd',
-        'PASSWORD': 'iotd',
+        'USER': 'iotduser',
+        'PASSWORD': 'password',
         'HOST' : 'localhost',
         'PORT' : '5432',
     }
